@@ -21,7 +21,7 @@
     <div id="container">
       <!--  login 폼 영역을 : loginBox -->
       <div id="loginBox">
-      
+       
         <!-- 로그인 페이지 타이틀 -->
         <div id="loginBoxTitle"><img src="resources/images/header/logo.png" alt=""></div>
         <!-- 아이디, 비번, 버튼 박스 -->
