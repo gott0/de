@@ -35,7 +35,7 @@
       <div class="item header">
         <header>
           <a class="logo" href="">
-            <img src="resources/images/header/logo.png"> 
+            <img src="resources/images/header/logo.png">
           </a>
               
           <nav>
