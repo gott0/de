@@ -21,7 +21,7 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
    	  <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/main.js"></script>
       
-      <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/main.css?ver=1"">
+      <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/main.css?ver=1">
 
       
 		 
@@ -54,97 +54,114 @@
 
   <!-- main -->
   <div class="item main">
-      <!-- 메인 이미지-->
-      <div class="row mainImg">
-        <div class="scene">
-          <a class="e">E</a><a class="n">n</a><a class="j">j</a><a class="o">o</a><a class="y">y</a>
-          <h1 class="li">Your Life!</h1>
-          <div class="magic"></div>
-        </div>
-      </div> <!-- 메인 이미지 end-->
-      
+     		
+		<!-- nav bar-->
+		<div class="row navbar">
+		  <nav class="navbar navbar-default" id="navbar-scroll">
+		    <ul class="nav navbar-list">
+		      <li><a href="#menu1">main</a></li>
+		      <li><a href="#menu2">카테고리</a></li>
+		      <li><a href="#menu3">소개 영상</a></li>
+		      <li><a href="#menu4">인기랭킹</a></li>
+		      <li><a href="#menu5">자주 묻는 질문</a></li>
+		    </ul>
+		  </nav>
+		</div> <!--navbar end-->    
+		  
+		<div class="scrollcontent" id="menu1">    
+		<!-- 메인 이미지-->
+		<div class="row mainImg">
+		  <div class="scene">
+		    <a class="e">E</a><a class="n">n</a><a class="j">j</a><a class="o">o</a><a class="y">y</a>
+		    <h1 class="li">Your Life!</h1>
+		    <div class="magic"></div>
+		  </div>
+		</div> <!-- 메인 이미지 end-->
+		   </div>
+		
+		<div class="scrollcontent" id="menu2">
+		   <!--카테고리-->
+		<div class="row category">
+		  <div class="row ct_title">
+		    <h1>당신의 관심사는?</h1>
+		  </div>
+		
+		  <div class="row ct_list">
+		    <div class="container ct_list_box">
+		
+		      <div class="row ct_list_1">
+		        <div class="col-6 col-md-4 ct_article" onclick="location.href='http://google.com'">
+		          <div class = "ct_class"><a href ="#"><img src="resources/images/category/ctgr1.png" alt="..." class="ct_img"></a></div>
+		          <a href=""><p class="ct-name"><h1>스포츠  / 레저</h1></p></a>                               
+		        </div>     
+		
+		        <div class="col-6 col-md-4 ct_article" onclick="location.href='http://google.com'">
+		          <div class = "ct_class"><a href ="#"><img src="resources/images/category/ctgr2.png" alt="..." class="ct_img"></a></div>
+		          <a href=""><p class="ct-name"><h1>언어 / 교육</h1></p></a>                               
+		        </div>   
+		
+		        <div class="col-6 col-md-4 ct_article" onclick="location.href='http://google.com'">
+		          <div class = "ct_class"><a href ="#"><img src="resources/images/category/ctgr3.png" alt="..." class="ct_img"></a></div>
+		          <a href=""><p class="ct-name"><h1>문화 / 예술</h1></p></a>                               
+		        </div> 
+		      </div>          
+		
+		      <br>
+		
+		      <div class="row ct_list_2">       
+		        <div class="col-6 col-md-4 ct_article" onclick="location.href='http://google.com'">
+		          <div class = "ct_class"><a href ="#"><img src="resources/images/category/ctgr4.png" alt="..." class="ct_img"></a></div>
+		          <a href=""><p class="ct-name"><h1>요리 / 음료</h1></p></a>                               
+		        </div>    
+		
+		        <div class="col-6 col-md-4 ct_article" onclick="location.href='http://google.com'">
+		          <div class = "ct_class"><a href ="#"><img src="resources/images/category/ctgr5.jpg" alt="..." class="ct_img"></a></div>
+		          <a href=""><p class="ct-name"><h1>핸드 메이드</h1></p></a>                               
+		        </div>   
+		
+		        <div class="col-6 col-md-4 ct_article" onclick="location.href='http://google.com'">
+		          <div class = "ct_class"><a href ="#"><img src="resources/images/category/ctgr6.png" alt="..." class="ct_img"></a></div>
+		          <a href=""><p class="ct-name"><h1>기타</h1></p></a>                               
+		        </div> 
+		
+		      </div>  
+		    </div> <!--ct_list_box end-->
+		  </div>
+		</div> <!--카테고리 end-->
+		   </div>
+		   
+		   <div class="row sample">샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플
+		   </div>
+		
+		<div class="scrollcontent" id="menu3">
+		   <!--동영상-->
+		<div class="row video">
+		  <div class="yt_container">
+		    <div class="row">
+		        <div class="col-md-4 pad10">
+		            <div class="ytle">
+		                <h2>내가 원하는 전문가들을<br> 만날 수 있는 사이트</h2><br>
+		                최근 한달 내 신규 가입자 수 1위!<br>
+		                수많은 카테고리, 수많은 서비스에서<br>
+		                여러분에게 필요한 모든 전문가를 만나보세요.
+		            </div>
+		        </div>
+		
+		        <div class="col-md-7 col-md-offset-1 pad10">
+		            <div class="yt">
+		                <div style="position: relative; height:0; padding-bottom: 56.25%; margin: 60px 0px;">
+		                    <iframe width="600" height="400" src="https://www.youtube.com/embed/1pc57zl6WAc" title="YouTube video player" frameborder="0" 
+		                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
+		                    style="position: absolute; width:100%; height:100%;"></iframe>
+		                </div>
+		            </div>
+		        </div>  
+		    </div>
+		  </div>
+		</div><!--동영상 end -->
+		</div>
 
-      <!--카테고리-->
-      <div class="row category">
-        <div class="row ct_title">
-          <h1>당신의 관심사는?</h1>
-        </div>
-
-        <div class="row ct_list">
-          <div class="container ct_list_box">
-
-            <div class="row ct_list_1">
-              <div class="col-6 col-md-4 ct_article" onclick="location.href='http://google.com'">
-                <div class = "ct_class"><a href ="#"><img src="resources/images/category/ctgr1.png" alt="..." class="ct_img"></a></div>
-                <a href=""><p class="ct-name"><h1>스포츠  / 레저</h1></p></a>                               
-              </div>     
-
-              <div class="col-6 col-md-4 ct_article" onclick="location.href='http://google.com'">
-                <div class = "ct_class"><a href ="#"><img src="resources/images/category/ctgr2.png" alt="..." class="ct_img"></a></div>
-                <a href=""><p class="ct-name"><h1>언어 / 교육</h1></p></a>                               
-              </div>   
-
-              <div class="col-6 col-md-4 ct_article" onclick="location.href='http://google.com'">
-                <div class = "ct_class"><a href ="#"><img src="resources/images/category/ctgr3.png" alt="..." class="ct_img"></a></div>
-                <a href=""><p class="ct-name"><h1>문화 / 예술</h1></p></a>                               
-              </div> 
-            </div>          
- 
-            <br>
-
-            <div class="row ct_list_2">       
-              <div class="col-6 col-md-4 ct_article" onclick="location.href='http://google.com'">
-                <div class = "ct_class"><a href ="#"><img src="resources/images/category/ctgr4.png" alt="..." class="ct_img"></a></div>
-                <a href=""><p class="ct-name"><h1>요리 / 음료</h1></p></a>                               
-              </div>    
-
-              <div class="col-6 col-md-4 ct_article" onclick="location.href='http://google.com'">
-                <div class = "ct_class"><a href ="#"><img src="resources/images/category/ctgr5.jpg" alt="..." class="ct_img"></a></div>
-                <a href=""><p class="ct-name"><h1>핸드 메이드</h1></p></a>                               
-              </div>   
-
-              <div class="col-6 col-md-4 ct_article" onclick="location.href='http://google.com'">
-                <div class = "ct_class"><a href ="#"><img src="resources/images/category/ctgr6.png" alt="..." class="ct_img"></a></div>
-                <a href=""><p class="ct-name"><h1>기타</h1></p></a>                               
-              </div> 
-
-            </div>  
-          </div> <!--ct_list_box end-->
-        </div>
-      </div> <!--카테고리 end-->
-    
-      
-      <div class="row sample">샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플샘플
-      </div>
-
-
-      <!--동영상-->
-      <div class="row video">
-        <div class="yt_container">
-          <div class="row">
-              <div class="col-md-4 pad10">
-                  <div class="ytle">
-                      <h2>내가 원하는 전문가들을<br> 만날 수 있는 사이트</h2><br>
-                      최근 한달 내 신규 가입자 수 1위!<br>
-                      수많은 카테고리, 수많은 서비스에서<br>
-                      여러분에게 필요한 모든 전문가를 만나보세요.
-                  </div>
-              </div>
-
-              <div class="col-md-7 col-md-offset-1 pad10">
-                  <div class="yt">
-                      <div style="position: relative; height:0; padding-bottom: 56.25%; margin: 60px 0px;">
-                          <iframe width="600" height="400" src="https://www.youtube.com/embed/1pc57zl6WAc" title="YouTube video player" frameborder="0" 
-                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
-                          style="position: absolute; width:100%; height:100%;"></iframe>
-                      </div>
-                  </div>
-              </div>  
-          </div>
-        </div>
-      </div><!--동영상 end -->
-      
-
+		<div class="scrollcontent" id="menu4">
         <!--인기 강습-->
         <div class="row popular">
           <div class="container-fluid popular">
@@ -194,8 +211,10 @@
             </div> <!-- p_row end-->
           </div>
         </div><!--인기 강습 end-->
+		</div>
 
 
+		<div class="scrollcontent" id="menu5">
         <!--자주 묻는 질문-->
         <div class="row QnA">
             <div class="col-3 col-md-3"></div>
@@ -287,8 +306,10 @@
             <div class="col-3 col-md-3"></div>
 
         </div><!--자주 묻는 질문 end-->
+        </div>
+        
+        
     </div><!-- main end-->
-
 
 
       <!-- Footer-->

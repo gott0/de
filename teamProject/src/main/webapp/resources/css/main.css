@@ -91,7 +91,47 @@
     height:80px;
   }
 
-
+  /* 네비 바 */
+  .navbar{ 
+    border: none; 
+    padding-bottom: 10px;  
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-weight: 1000; 
+    font-size: 18px;
+    text-transform: capitalize; 
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    width: 99vw;
+  }
+  .navbar-default{
+    width: 100%;
+    height:auto;
+  }
+  .navbar-list {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    padding-left: 5%;
+  }
+  .navbar-list li { 
+    float: left;
+    padding: 0 20px; 
+    width: 18%;
+    padding-top: 1.5%;
+  }
+  .navbar-default .navbar-list > li > a{
+    color: #cff819;
+    background-color: black;
+  }
+  .navbar-default .navbar-list > li > a:hover{
+    color: rgb(218, 41, 224);
+    background-color: black;
+  }
+  .navbar-list > a{
+    text-align: center;
+  }
+  
   /* 메인 이미지*/
   @import "compass/css3";
   @font-face {
