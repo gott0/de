@@ -13,7 +13,9 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
       <!-- 부가적인 테마 -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-  
+  	  
+    
+    
       <!-- 헤더 검색창 -->
       <script src="https://kit.fontawesome.com/8eb5905426.js" crossorigin="anonymous"></script>
       
@@ -21,7 +23,7 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
    	  <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/main.js"></script>
       
-      <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/main.css?ver=1">
+      <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/main.css?ver=1253">
 
       
 		 
@@ -351,14 +353,12 @@
   </div> <!-- full-container end -->
 
 
-    <!-- jQuery (부트스트랩의 자바스크립트 플러그인을 위해 필요합니다) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-    <!-- 별 icon-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
-    
-    
+
+	  <!-- jQuery (부트스트랩의 자바스크립트 플러그인을 위해 필요합니다) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>
 </body>
